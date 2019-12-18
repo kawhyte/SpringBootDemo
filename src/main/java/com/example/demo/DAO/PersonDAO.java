@@ -2,6 +2,7 @@ package com.example.demo.DAO;
 
 import com.example.demo.Model.Person;
 
+import java.util.List;
 import java.util.UUID;
 
 public interface PersonDAO {
@@ -14,4 +15,5 @@ public interface PersonDAO {
 
  }
 
+    List<Person> selectAllPeople();
 }
